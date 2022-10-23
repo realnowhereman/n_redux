@@ -44,6 +44,8 @@ function App() {
 
   return (
     <div className='App'>
+      <a href="https://youtu.be/C0fBnil_Im4?t=1417" target={'_blank'}>stopped</a>
+      <hr />
       
       <InputField text={text} handleInput={setText} handleSubmit={addTodo} />
       <TodoList todos={todos} toggleTodoComplete={toggleTodoComplete} removeTodo={removeTodo} />
